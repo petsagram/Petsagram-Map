@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B313AB7525719EC800C78D5A /* Petsagram_MapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B313AB7425719EC800C78D5A /* Petsagram_MapApp.swift */; };
+		B313AB7725719EC800C78D5A /* PetsagramMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B313AB7625719EC800C78D5A /* PetsagramMapView.swift */; };
+		B313AB7925719EC800C78D5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B313AB7825719EC800C78D5A /* Assets.xcassets */; };
+		B313AB7C25719EC800C78D5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B313AB7B25719EC800C78D5A /* Preview Assets.xcassets */; };
+		B380B05E2571A10800805DB7 /* FireSmokeStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B380B05D2571A10800805DB7 /* FireSmokeStatusView.swift */; };
+		B380B0612571A11100805DB7 /* FireSmokStatusViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B380B0602571A11100805DB7 /* FireSmokStatusViewCell.swift */; };
+		B380B0652571A11A00805DB7 /* Color + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B380B0642571A11A00805DB7 /* Color + Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B313AB7125719EC800C78D5A /* Petsagram Map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Petsagram Map.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B313AB7425719EC800C78D5A /* Petsagram_MapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petsagram_MapApp.swift; sourceTree = "<group>"; };
+		B313AB7625719EC800C78D5A /* PetsagramMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsagramMapView.swift; sourceTree = "<group>"; };
+		B313AB7825719EC800C78D5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B313AB7B25719EC800C78D5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B313AB7D25719EC800C78D5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B380B05D2571A10800805DB7 /* FireSmokeStatusView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FireSmokeStatusView.swift; sourceTree = "<group>"; };
+		B380B0602571A11100805DB7 /* FireSmokStatusViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FireSmokStatusViewCell.swift; sourceTree = "<group>"; };
+		B380B0642571A11A00805DB7 /* Color + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color + Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B313AB6E25719EC800C78D5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B313AB6825719EC800C78D5A = {
+			isa = PBXGroup;
+			children = (
+				B313AB7325719EC800C78D5A /* Petsagram Map */,
+				B313AB7225719EC800C78D5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B313AB7225719EC800C78D5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B313AB7125719EC800C78D5A /* Petsagram Map.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B313AB7325719EC800C78D5A /* Petsagram Map */ = {
+			isa = PBXGroup;
+			children = (
+				B313AB7425719EC800C78D5A /* Petsagram_MapApp.swift */,
+				B313AB7625719EC800C78D5A /* PetsagramMapView.swift */,
+				B380B0792572F40000805DB7 /* PMSensorsView */,
+				B380B0632571A11A00805DB7 /* PMExtensions */,
+				B313AB7825719EC800C78D5A /* Assets.xcassets */,
+				B313AB7D25719EC800C78D5A /* Info.plist */,
+				B313AB7A25719EC800C78D5A /* Preview Content */,
+			);
+			path = "Petsagram Map";
+			sourceTree = "<group>";
+		};
+		B313AB7A25719EC800C78D5A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B313AB7B25719EC800C78D5A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B380B0632571A11A00805DB7 /* PMExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				B380B0642571A11A00805DB7 /* Color + Extension.swift */,
+			);
+			path = PMExtensions;
+			sourceTree = "<group>";
+		};
+		B380B0792572F40000805DB7 /* PMSensorsView */ = {
+			isa = PBXGroup;
+			children = (
+				B380B05D2571A10800805DB7 /* FireSmokeStatusView.swift */,
+				B380B0602571A11100805DB7 /* FireSmokStatusViewCell.swift */,
+			);
+			path = PMSensorsView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B313AB7025719EC800C78D5A /* Petsagram Map */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B313AB8025719EC800C78D5A /* Build configuration list for PBXNativeTarget "Petsagram Map" */;
+			buildPhases = (
+				B313AB6D25719EC800C78D5A /* Sources */,
+				B313AB6E25719EC800C78D5A /* Frameworks */,
+				B313AB6F25719EC800C78D5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Petsagram Map";
+			productName = "Petsagram Map";
+			productReference = B313AB7125719EC800C78D5A /* Petsagram Map.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B313AB6925719EC800C78D5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					B313AB7025719EC800C78D5A = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = B313AB6C25719EC800C78D5A /* Build configuration list for PBXProject "Petsagram Map" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B313AB6825719EC800C78D5A;
+			productRefGroup = B313AB7225719EC800C78D5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B313AB7025719EC800C78D5A /* Petsagram Map */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B313AB6F25719EC800C78D5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B313AB7C25719EC800C78D5A /* Preview Assets.xcassets in Resources */,
+				B313AB7925719EC800C78D5A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B313AB6D25719EC800C78D5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B380B05E2571A10800805DB7 /* FireSmokeStatusView.swift in Sources */,
+				B313AB7725719EC800C78D5A /* PetsagramMapView.swift in Sources */,
+				B380B0612571A11100805DB7 /* FireSmokStatusViewCell.swift in Sources */,
+				B313AB7525719EC800C78D5A /* Petsagram_MapApp.swift in Sources */,
+				B380B0652571A11A00805DB7 /* Color + Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B313AB7E25719EC800C78D5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B313AB7F25719EC800C78D5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B313AB8125719EC800C78D5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEVELOPMENT_ASSET_PATHS = "\"Petsagram Map/Preview Content\"";
+				DEVELOPMENT_TEAM = UK479KL94J;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Petsagram Map/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.petsagram.map;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Petsagram Map Provisioning Profile";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B313AB8225719EC800C78D5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEVELOPMENT_ASSET_PATHS = "\"Petsagram Map/Preview Content\"";
+				DEVELOPMENT_TEAM = UK479KL94J;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Petsagram Map/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.petsagram.map;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Petsagram Map Provisioning Profile";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B313AB6C25719EC800C78D5A /* Build configuration list for PBXProject "Petsagram Map" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B313AB7E25719EC800C78D5A /* Debug */,
+				B313AB7F25719EC800C78D5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B313AB8025719EC800C78D5A /* Build configuration list for PBXNativeTarget "Petsagram Map" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B313AB8125719EC800C78D5A /* Debug */,
+				B313AB8225719EC800C78D5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B313AB6925719EC800C78D5A /* Project object */;
+}
