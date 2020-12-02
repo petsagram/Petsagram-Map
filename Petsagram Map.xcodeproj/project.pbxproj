@@ -11,6 +11,7 @@
 		B313AB7725719EC800C78D5A /* PetsagramMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B313AB7625719EC800C78D5A /* PetsagramMapView.swift */; };
 		B313AB7925719EC800C78D5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B313AB7825719EC800C78D5A /* Assets.xcassets */; };
 		B313AB7C25719EC800C78D5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B313AB7B25719EC800C78D5A /* Preview Assets.xcassets */; };
+		B33E41272578071B00D29D42 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33E41262578071B00D29D42 /* AlertView.swift */; };
 		B380B05E2571A10800805DB7 /* FireSmokeStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B380B05D2571A10800805DB7 /* FireSmokeStatusView.swift */; };
 		B380B0612571A11100805DB7 /* FireSmokStatusViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B380B0602571A11100805DB7 /* FireSmokStatusViewCell.swift */; };
 		B380B0652571A11A00805DB7 /* Color + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B380B0642571A11A00805DB7 /* Color + Extension.swift */; };
@@ -23,6 +24,7 @@
 		B313AB7825719EC800C78D5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B313AB7B25719EC800C78D5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B313AB7D25719EC800C78D5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B33E41262578071B00D29D42 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 		B380B05D2571A10800805DB7 /* FireSmokeStatusView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FireSmokeStatusView.swift; sourceTree = "<group>"; };
 		B380B0602571A11100805DB7 /* FireSmokStatusViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FireSmokStatusViewCell.swift; sourceTree = "<group>"; };
 		B380B0642571A11A00805DB7 /* Color + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color + Extension.swift"; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 			children = (
 				B313AB7425719EC800C78D5A /* Petsagram_MapApp.swift */,
 				B313AB7625719EC800C78D5A /* PetsagramMapView.swift */,
+				B33E4125257806F900D29D42 /* AlertView */,
 				B380B0792572F40000805DB7 /* PMSensorsView */,
 				B380B0632571A11A00805DB7 /* PMExtensions */,
 				B313AB7825719EC800C78D5A /* Assets.xcassets */,
@@ -75,6 +78,14 @@
 				B313AB7B25719EC800C78D5A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B33E4125257806F900D29D42 /* AlertView */ = {
+			isa = PBXGroup;
+			children = (
+				B33E41262578071B00D29D42 /* AlertView.swift */,
+			);
+			path = AlertView;
 			sourceTree = "<group>";
 		};
 		B380B0632571A11A00805DB7 /* PMExtensions */ = {
@@ -168,6 +179,7 @@
 				B380B0612571A11100805DB7 /* FireSmokStatusViewCell.swift in Sources */,
 				B313AB7525719EC800C78D5A /* Petsagram_MapApp.swift in Sources */,
 				B380B0652571A11A00805DB7 /* Color + Extension.swift in Sources */,
+				B33E41272578071B00D29D42 /* AlertView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -14,6 +14,7 @@ struct FireSmokeStatusView: View {
     let gradient = LinearGradient(gradient: Gradient(colors: [.gradientYellow, .gradientRed]),                                  startPoint: .bottomLeading,
                                   endPoint: .topTrailing)
     @State var hideRectangle: Bool = false
+    @State var stopAnimation: Bool = false
     
     var body: some View {
 
@@ -33,6 +34,7 @@ struct FireSmokeStatusView: View {
 
                 Button(action: {
                     self.hideRectangle.toggle()
+                    self.stopAnimation = false
                 }, label: {
                     Image(systemName: "chevron.compact.down")
                         .foregroundColor(.lostCircleColor)
@@ -44,14 +46,17 @@ struct FireSmokeStatusView: View {
             HStack {
                 FireSmokStatusViewCell(status: "Fire",
                                        imageString: "fire",
-                                       circleColor: .fireCircleColor)
+                                       circleColor: .fireCircleColor,
+                                       pulseAnimation: self.$stopAnimation)
                 FireSmokStatusViewCell(status: "Smoke",
                                        imageString: "heat-haze (1)",
-                                       circleColor: .smokeCircleColor)
+                                       circleColor: .smokeCircleColor,
+                                       pulseAnimation: self.$stopAnimation)
                             .padding()
                 FireSmokStatusViewCell(status: "Lost",
                                        imageString: "eye",
-                                       circleColor: .lostCircleColor)
+                                       circleColor: .lostCircleColor,
+                                       pulseAnimation: self.$stopAnimation)
             }.opacity(hideRectangle ? 0 : 1)
         }
         .padding(.bottom, hideRectangle ? -180 : 0 )

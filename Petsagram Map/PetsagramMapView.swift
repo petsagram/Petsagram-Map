@@ -42,11 +42,20 @@ struct PetsagramMapView: View {
     
     @State private var offset = CGSize(width: 0,
                                        height: UIScreen.main.bounds.height * 0.6)
-                
+    @State var presented: Bool = false
+
     var body: some View {
         GeometryReader { geometry in
             ZStack {
-                MapView().edgesIgnoringSafeArea(.all)
+                MapView()
+                    .edgesIgnoringSafeArea(.all)
+                    .onTapGesture {
+                        self.presented = true
+                    }
+                
+                AlertView(presented: self.$presented)
+                    .zIndex(1)
+
                 VStack {
                     Spacer()
                     FireSmokeStatusView()
@@ -63,20 +72,3 @@ struct PetsagramMapView_Previews: PreviewProvider {
         PetsagramMapView()
     }
 }
-
-
-
-//.offset(self.offset)
-//.animation(.spring())
-//.gesture(DragGesture()
-//            .onChanged{ gesture in
-//                self.offset.height = gesture.translation.height
-//            }
-//            .onEnded {
-//                if $0.translation.height < 50 {
-//                    self.offset.height = UIScreen.main.bounds.height * 0.6
-//                } else {
-//                    self.offset.height = 65
-//                }
-//            }
-//)

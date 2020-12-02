@@ -15,7 +15,7 @@ struct FireSmokStatusViewCell: View {
     @State var imageString: String
     @State var circleColor: Color
     @State var progressValue: Float = 0.0
-    @State var pulseAnimation = false
+    @Binding var pulseAnimation: Bool
 
     var body: some View {
         VStack(alignment: .center) {
@@ -75,7 +75,7 @@ struct FireSmokStatusViewCell: View {
                 let randomValue = Float([0, 0.9, 0.72, 0.634, 0.716, 0.881, 0.3].randomElement()!)
                 self.progressValue += randomValue
             }
-          }
+        }
     }
 
     func animate() {
@@ -86,10 +86,12 @@ struct FireSmokStatusViewCell: View {
 
 struct FireSmokStatusViewCell_Previews: PreviewProvider {
     static var previews: some View {
-        FireSmokStatusViewCell(status: "", imageString: "", circleColor: .clear)
+        FireSmokStatusViewCell(status: "",
+                               imageString: "",
+                               circleColor: .clear,
+                               pulseAnimation: .constant(false))
     }
 }
-
 
 extension Animation {
     func `repeat`(while expression: Bool, autoreverses: Bool = true) -> Animation {
