@@ -13,14 +13,12 @@ struct FireSmokeStatusView: View {
 
     let gradient = LinearGradient(gradient: Gradient(colors: [.gradientYellow, .gradientRed]),                                  startPoint: .bottomLeading,
                                   endPoint: .topTrailing)
-    @State var hideRectangle: Bool = false
-    @State var stopAnimation: Bool = false
+    @State var hideRectangle: Bool = true
+    @State var stopAnimation: Bool = true
     
     var body: some View {
-
         ZStack(alignment: hideRectangle ? .bottom : .center) {
             ZStack(alignment: .top) {
-                
                 Rectangle()
                     .fill(gradient)
                     .frame(width: UIScreen.main.bounds.width,
@@ -40,7 +38,7 @@ struct FireSmokeStatusView: View {
                         .foregroundColor(.lostCircleColor)
                         .font(Font.system(size: 35))
                         .rotationEffect(.init(degrees: hideRectangle ? 180 : 0))
-                })
+                }).padding(.top, 10)
             }
 
             HStack {
@@ -48,20 +46,23 @@ struct FireSmokeStatusView: View {
                                        imageString: "fire",
                                        circleColor: .fireCircleColor,
                                        pulseAnimation: self.$stopAnimation)
+                    .disabled(true)
                 FireSmokStatusViewCell(status: "Smoke",
                                        imageString: "heat-haze (1)",
                                        circleColor: .smokeCircleColor,
                                        pulseAnimation: self.$stopAnimation)
-                            .padding()
+                    .disabled(true)
+                    .padding()
                 FireSmokStatusViewCell(status: "Lost",
                                        imageString: "eye",
                                        circleColor: .lostCircleColor,
                                        pulseAnimation: self.$stopAnimation)
+                    .disabled(true)
             }.opacity(hideRectangle ? 0 : 1)
         }
         .padding(.bottom, hideRectangle ? -180 : 0 )
         .animation(.spring())
-        
+//        }
     }
 }
 

@@ -29,40 +29,45 @@ struct AlertView: View {
             }
         Rectangle()
             .fill(Color.white)
-            .frame(width: UIScreen.main.bounds.width - 40, height: 250, alignment: .center)
+            .frame(width: UIScreen.main.bounds.width - 40,
+                   height: 250,
+                   alignment: .center)
             .cornerRadius(30)
         VStack {
-            Image("whitebck")
+            Image("logo")
                 .resizable()
                 .frame(width: 80,
                        height: 80)
-            Text("Welcome to Petsagram Map!!!")
-                .font(Font(UIFont.italicSystemFont(ofSize: 19)))
+                .cornerRadius(40,
+                              antialiased: true)
+            Text("Welcome to Petsagram Map")
                 .bold()
-                
-            Text("You can take a look at our web page !!")
-                .font(Font(UIFont.systemFont(ofSize: 18)))
+//                .font(.title)
+                .foregroundColor(.gray)
+
+            Text("It seems your Petsagram GPS is not assigned,\nlook at website to find instructions.")
+                .lineLimit(2)
+                .multilineTextAlignment(.center)
+                .font(.footnote)
+                .foregroundColor(Color(UIColor.lightGray))
 
             Button(action: {
                 openURL(URL(string: "https://petsagram.io")!)
             }, label: {
-                Text("FORWARD")
+                Text("Forward to Website")
                     .font(.title3)
                     .bold()
                     .foregroundColor(.white)
-                    .frame(width: 140,
+                    .frame(width: 240,
                            height: 40,
                            alignment: .center)
-                    .background(Color(UIColor(red: 244/255,
-                                              green: 210/255,
-                                              blue: 66/255,
-                                              alpha: 1)))
+                    .background(Color.red)
                     .cornerRadius(15)
                     .shadow(radius: 4)
             }).padding(.top, 20)
         }
         }.opacity(self.presented ? 1 : 0)
-        .animation(.easeInOut(duration: 0.5))
+         .animation(.easeInOut(duration: 0.5))
     }
 }
 
