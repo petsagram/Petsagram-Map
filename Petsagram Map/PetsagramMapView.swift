@@ -42,8 +42,10 @@ struct MapViewContent: View {
                 .font(.largeTitle)
             }
         }.onAppear {
-            self.region =  MKCoordinateRegion(center: coordinate,
-                                              span: MKCoordinateSpan(latitudeDelta: 0.24, longitudeDelta: 0.24))
+        self.region = MKCoordinateRegion(center: coordinate,
+                                         span: MKCoordinateSpan(
+                                            latitudeDelta: 0.24,
+                                            longitudeDelta: 0.24))
         }
     }
 }
@@ -58,8 +60,23 @@ struct MapView: UIViewRepresentable {
 
      ///Creating map view at startup
      func makeUIView(context: Context) -> MKMapView {
-       locationManager.delegate = context.coordinator
-       let map = MKMapView()
+        locationManager.delegate = context.coordinator
+        let map = MKMapView()
+        map.showsCompass = false
+        map.showsUserLocation = false
+
+        let compassBtn = MKCompassButton(mapView: map)
+        compassBtn.frame.origin = CGPoint(x: UIScreen.main.bounds.width - 50,
+                                          y: 20)
+        compassBtn.compassVisibility = .visible
+
+        let currentLocationBtn = MKUserTrackingButton(mapView: map)
+        currentLocationBtn.frame.origin = CGPoint(
+            x: UIScreen.main.bounds.width - 50,
+            y: 60)
+        currentLocationBtn.tintColor = .gray
+        map.addSubview(compassBtn)
+        map.addSubview(currentLocationBtn)
        return map
      }
 
@@ -140,9 +157,9 @@ struct PetsagramMapView: View {
                     .resizable()
                     .foregroundColor(.red)
             }).alignmentGuide(HorizontalAlignment.zAlignmentTopLeading)
-                { d in d[HorizontalAlignment.leading] - 40}
+                { d in d[HorizontalAlignment.leading] - 20}
             .alignmentGuide(VerticalAlignment.zAlignmentTopLeading)
-                { d in d[VerticalAlignment.top] - 20}
+                { d in d[VerticalAlignment.top]}
             .frame(width: 44,
                    height: 35)
         }
