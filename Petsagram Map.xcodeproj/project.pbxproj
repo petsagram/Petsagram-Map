@@ -7,31 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B313AB7525719EC800C78D5A /* Petsagram_MapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B313AB7425719EC800C78D5A /* Petsagram_MapApp.swift */; };
-		B313AB7725719EC800C78D5A /* PetsagramMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B313AB7625719EC800C78D5A /* PetsagramMapView.swift */; };
-		B313AB7925719EC800C78D5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B313AB7825719EC800C78D5A /* Assets.xcassets */; };
-		B313AB7C25719EC800C78D5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B313AB7B25719EC800C78D5A /* Preview Assets.xcassets */; };
-		B33E41272578071B00D29D42 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33E41262578071B00D29D42 /* AlertView.swift */; };
-		B380B05E2571A10800805DB7 /* FireSmokeStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B380B05D2571A10800805DB7 /* FireSmokeStatusView.swift */; };
-		B380B0612571A11100805DB7 /* FireSmokStatusViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B380B0602571A11100805DB7 /* FireSmokStatusViewCell.swift */; };
-		B380B0652571A11A00805DB7 /* Color + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B380B0642571A11A00805DB7 /* Color + Extension.swift */; };
+		AD19A98325A1CF28004BBD32 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD19A98225A1CF28004BBD32 /* Home.swift */; };
+		AD19A98925A1CF3A004BBD32 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD19A98825A1CF3A004BBD32 /* MapView.swift */; };
+		AD19A98F25A1CF76004BBD32 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD19A98E25A1CF76004BBD32 /* MapViewModel.swift */; };
+		AD19A99A25A1DB4B004BBD32 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD19A99925A1DB4B004BBD32 /* Place.swift */; };
+		AD51C80E25A0EEB8007298ED /* MapRoutesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD51C7E525A0EEB8007298ED /* MapRoutesApp.swift */; };
+		AD51C81025A0EEB8007298ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD51C7E625A0EEB8007298ED /* ContentView.swift */; };
+		AD51C81225A0EEB8007298ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD51C7E725A0EEB8007298ED /* Assets.xcassets */; };
+		B347934C25A8796700387CF9 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B347934B25A8796700387CF9 /* AlertView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B313AB7125719EC800C78D5A /* Petsagram Map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Petsagram Map.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B313AB7425719EC800C78D5A /* Petsagram_MapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petsagram_MapApp.swift; sourceTree = "<group>"; };
-		B313AB7625719EC800C78D5A /* PetsagramMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsagramMapView.swift; sourceTree = "<group>"; };
-		B313AB7825719EC800C78D5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B313AB7B25719EC800C78D5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		B313AB7D25719EC800C78D5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B33E41262578071B00D29D42 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
-		B380B05D2571A10800805DB7 /* FireSmokeStatusView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FireSmokeStatusView.swift; sourceTree = "<group>"; };
-		B380B0602571A11100805DB7 /* FireSmokStatusViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FireSmokStatusViewCell.swift; sourceTree = "<group>"; };
-		B380B0642571A11A00805DB7 /* Color + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color + Extension.swift"; sourceTree = "<group>"; };
+		AD19A98225A1CF28004BBD32 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		AD19A98825A1CF3A004BBD32 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		AD19A98E25A1CF76004BBD32 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		AD19A99925A1DB4B004BBD32 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		AD51C7E525A0EEB8007298ED /* MapRoutesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapRoutesApp.swift; sourceTree = "<group>"; };
+		AD51C7E625A0EEB8007298ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD51C7E725A0EEB8007298ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD51C7EC25A0EEB8007298ED /* Petsagram Map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Petsagram Map.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD51C7EF25A0EEB8007298ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B347934B25A8796700387CF9 /* AlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B313AB6E25719EC800C78D5A /* Frameworks */ = {
+		AD51C7E925A0EEB8007298ED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,105 +41,113 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B313AB6825719EC800C78D5A = {
+		AD19A98025A1CF1C004BBD32 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				B313AB7325719EC800C78D5A /* Petsagram Map */,
-				B313AB7225719EC800C78D5A /* Products */,
+				AD19A98225A1CF28004BBD32 /* Home.swift */,
+				AD19A98825A1CF3A004BBD32 /* MapView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AD19A98125A1CF20004BBD32 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AD19A98E25A1CF76004BBD32 /* MapViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AD19A99825A1DB43004BBD32 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AD19A99925A1DB4B004BBD32 /* Place.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AD51C7DF25A0EEB8007298ED = {
+			isa = PBXGroup;
+			children = (
+				AD51C7E425A0EEB8007298ED /* Shared */,
+				AD51C7EE25A0EEB8007298ED /* iOS */,
+				AD51C7ED25A0EEB8007298ED /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B313AB7225719EC800C78D5A /* Products */ = {
+		AD51C7E425A0EEB8007298ED /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				B313AB7125719EC800C78D5A /* Petsagram Map.app */,
+				AD19A99825A1DB43004BBD32 /* Model */,
+				AD19A98125A1CF20004BBD32 /* ViewModel */,
+				B347934A25A8796700387CF9 /* AlertView */,
+				AD19A98025A1CF1C004BBD32 /* View */,
+				AD51C7E525A0EEB8007298ED /* MapRoutesApp.swift */,
+				AD51C7E625A0EEB8007298ED /* ContentView.swift */,
+				AD51C7E725A0EEB8007298ED /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		AD51C7ED25A0EEB8007298ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD51C7EC25A0EEB8007298ED /* Petsagram Map.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B313AB7325719EC800C78D5A /* Petsagram Map */ = {
+		AD51C7EE25A0EEB8007298ED /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				B313AB7425719EC800C78D5A /* Petsagram_MapApp.swift */,
-				B313AB7625719EC800C78D5A /* PetsagramMapView.swift */,
-				B33E4125257806F900D29D42 /* AlertView */,
-				B380B0792572F40000805DB7 /* PMSensorsView */,
-				B380B0632571A11A00805DB7 /* PMExtensions */,
-				B313AB7825719EC800C78D5A /* Assets.xcassets */,
-				B313AB7D25719EC800C78D5A /* Info.plist */,
-				B313AB7A25719EC800C78D5A /* Preview Content */,
+				AD51C7EF25A0EEB8007298ED /* Info.plist */,
 			);
-			path = "Petsagram Map";
+			path = iOS;
 			sourceTree = "<group>";
 		};
-		B313AB7A25719EC800C78D5A /* Preview Content */ = {
+		B347934A25A8796700387CF9 /* AlertView */ = {
 			isa = PBXGroup;
 			children = (
-				B313AB7B25719EC800C78D5A /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		B33E4125257806F900D29D42 /* AlertView */ = {
-			isa = PBXGroup;
-			children = (
-				B33E41262578071B00D29D42 /* AlertView.swift */,
+				B347934B25A8796700387CF9 /* AlertView.swift */,
 			);
 			path = AlertView;
-			sourceTree = "<group>";
-		};
-		B380B0632571A11A00805DB7 /* PMExtensions */ = {
-			isa = PBXGroup;
-			children = (
-				B380B0642571A11A00805DB7 /* Color + Extension.swift */,
-			);
-			path = PMExtensions;
-			sourceTree = "<group>";
-		};
-		B380B0792572F40000805DB7 /* PMSensorsView */ = {
-			isa = PBXGroup;
-			children = (
-				B380B05D2571A10800805DB7 /* FireSmokeStatusView.swift */,
-				B380B0602571A11100805DB7 /* FireSmokStatusViewCell.swift */,
-			);
-			path = PMSensorsView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B313AB7025719EC800C78D5A /* Petsagram Map */ = {
+		AD51C7EB25A0EEB8007298ED /* Petsagram Map (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B313AB8025719EC800C78D5A /* Build configuration list for PBXNativeTarget "Petsagram Map" */;
+			buildConfigurationList = AD51C81625A0EEB8007298ED /* Build configuration list for PBXNativeTarget "Petsagram Map (iOS)" */;
 			buildPhases = (
-				B313AB6D25719EC800C78D5A /* Sources */,
-				B313AB6E25719EC800C78D5A /* Frameworks */,
-				B313AB6F25719EC800C78D5A /* Resources */,
+				AD51C7E825A0EEB8007298ED /* Sources */,
+				AD51C7E925A0EEB8007298ED /* Frameworks */,
+				AD51C7EA25A0EEB8007298ED /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Petsagram Map";
-			productName = "Petsagram Map";
-			productReference = B313AB7125719EC800C78D5A /* Petsagram Map.app */;
+			name = "Petsagram Map (iOS)";
+			productName = "MapRoutes (iOS)";
+			productReference = AD51C7EC25A0EEB8007298ED /* Petsagram Map.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B313AB6925719EC800C78D5A /* Project object */ = {
+		AD51C7E025A0EEB8007298ED /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1220;
-				LastUpgradeCheck = 1220;
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
 				TargetAttributes = {
-					B313AB7025719EC800C78D5A = {
-						CreatedOnToolsVersion = 12.2;
+					AD51C7EB25A0EEB8007298ED = {
+						CreatedOnToolsVersion = 12.3;
 					};
 				};
 			};
-			buildConfigurationList = B313AB6C25719EC800C78D5A /* Build configuration list for PBXProject "Petsagram Map" */;
+			buildConfigurationList = AD51C7E325A0EEB8007298ED /* Build configuration list for PBXProject "Petsagram Map" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -147,46 +155,46 @@
 				en,
 				Base,
 			);
-			mainGroup = B313AB6825719EC800C78D5A;
-			productRefGroup = B313AB7225719EC800C78D5A /* Products */;
+			mainGroup = AD51C7DF25A0EEB8007298ED;
+			productRefGroup = AD51C7ED25A0EEB8007298ED /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B313AB7025719EC800C78D5A /* Petsagram Map */,
+				AD51C7EB25A0EEB8007298ED /* Petsagram Map (iOS) */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B313AB6F25719EC800C78D5A /* Resources */ = {
+		AD51C7EA25A0EEB8007298ED /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B313AB7C25719EC800C78D5A /* Preview Assets.xcassets in Resources */,
-				B313AB7925719EC800C78D5A /* Assets.xcassets in Resources */,
+				AD51C81225A0EEB8007298ED /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B313AB6D25719EC800C78D5A /* Sources */ = {
+		AD51C7E825A0EEB8007298ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B380B05E2571A10800805DB7 /* FireSmokeStatusView.swift in Sources */,
-				B313AB7725719EC800C78D5A /* PetsagramMapView.swift in Sources */,
-				B380B0612571A11100805DB7 /* FireSmokStatusViewCell.swift in Sources */,
-				B313AB7525719EC800C78D5A /* Petsagram_MapApp.swift in Sources */,
-				B380B0652571A11A00805DB7 /* Color + Extension.swift in Sources */,
-				B33E41272578071B00D29D42 /* AlertView.swift in Sources */,
+				AD51C81025A0EEB8007298ED /* ContentView.swift in Sources */,
+				AD19A98F25A1CF76004BBD32 /* MapViewModel.swift in Sources */,
+				B347934C25A8796700387CF9 /* AlertView.swift in Sources */,
+				AD19A98925A1CF3A004BBD32 /* MapView.swift in Sources */,
+				AD19A99A25A1DB4B004BBD32 /* Place.swift in Sources */,
+				AD19A98325A1CF28004BBD32 /* Home.swift in Sources */,
+				AD51C80E25A0EEB8007298ED /* MapRoutesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		B313AB7E25719EC800C78D5A /* Debug */ = {
+		AD51C81425A0EEB8007298ED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -237,17 +245,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		B313AB7F25719EC800C78D5A /* Release */ = {
+		AD51C81525A0EEB8007298ED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -292,28 +298,23 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		B313AB8125719EC800C78D5A /* Debug */ = {
+		AD51C81725A0EEB8007298ED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.0.5;
-				DEVELOPMENT_ASSET_PATHS = "\"Petsagram Map/Preview Content\"";
+				CURRENT_PROJECT_VERSION = 1.1.5;
 				DEVELOPMENT_TEAM = UK479KL94J;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Petsagram Map/Info.plist";
+				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -321,25 +322,23 @@
 				);
 				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.petsagram.map;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PRODUCT_NAME = "Petsagram Map";
+				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		B313AB8225719EC800C78D5A /* Release */ = {
+		AD51C81825A0EEB8007298ED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.0.5;
-				DEVELOPMENT_ASSET_PATHS = "\"Petsagram Map/Preview Content\"";
+				CURRENT_PROJECT_VERSION = 1.1.5;
 				DEVELOPMENT_TEAM = UK479KL94J;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Petsagram Map/Info.plist";
+				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -347,35 +346,36 @@
 				);
 				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.petsagram.map;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PRODUCT_NAME = "Petsagram Map";
+				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B313AB6C25719EC800C78D5A /* Build configuration list for PBXProject "Petsagram Map" */ = {
+		AD51C7E325A0EEB8007298ED /* Build configuration list for PBXProject "Petsagram Map" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B313AB7E25719EC800C78D5A /* Debug */,
-				B313AB7F25719EC800C78D5A /* Release */,
+				AD51C81425A0EEB8007298ED /* Debug */,
+				AD51C81525A0EEB8007298ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B313AB8025719EC800C78D5A /* Build configuration list for PBXNativeTarget "Petsagram Map" */ = {
+		AD51C81625A0EEB8007298ED /* Build configuration list for PBXNativeTarget "Petsagram Map (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B313AB8125719EC800C78D5A /* Debug */,
-				B313AB8225719EC800C78D5A /* Release */,
+				AD51C81725A0EEB8007298ED /* Debug */,
+				AD51C81825A0EEB8007298ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B313AB6925719EC800C78D5A /* Project object */;
+	rootObject = AD51C7E025A0EEB8007298ED /* Project object */;
 }

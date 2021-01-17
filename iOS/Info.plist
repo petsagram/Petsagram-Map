@@ -21,9 +21,9 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>Allow this app to acces your location for using Petsagram Map.</string>
+	<string>Allow Petsagram Map to access your location to be able to search nearby locations like ` Parks, Cities, Roads etc. in handy way .</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Allow this app to acces your location for using Petsagram Map.</string>
+	<string>Allow Petsagram Map to access your location to be able to search nearby locations like ` Parks, Cities, Roads etc. in handy way .</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
@@ -37,11 +37,11 @@
 	<array>
 		<string>armv7</string>
 	</array>
+	<key>UIRequiresFullScreen</key>
+	<true/>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
